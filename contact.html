@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="../Basic-Portfolio/assets/css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+        <div id="header">
+                <div class="top">
+                    <div id="fixed">Adi Cepela</div>
+                    <div id="nav">
+                        <a class="navitem" href="./index.html">About</a> |
+                        <a class="navitem" href="./contact.html">Contact</a> |
+                        <a class="navitem" href="./portfolio.html">Portfolio</a>
+                    </div>
+                </div>
+        </div>
+
+<!-- Navigator developed with help from John Dahle -->
+
+<div class="wrapper">
+    <section id="content">
+        <h1>Contact</h1>
+        <hr>
+
+<!-- Code influenced by W3 -->
+
+        <form action="/action_page.php" id="usrform">
+            <div id="text">Name:</div>
+                    <input class="form" type="text" name="usrname">
+            <div id="text">Email:</div>
+                    <input class="form" type="text" name="email">
+                <br>
+            <div id="text">Message:</div>            <textarea id="message" rows="6" cols="80" name="comment" form="usrform"></textarea>
+        </form>
+        <button type="button" onclick="alert('Message Sent')">Submit</button>
+
+    </section>       
+</div>
+    <footer>Copyright&copy;</footer>
+</body>
+</html>

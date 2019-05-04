@@ -1,0 +1,269 @@
+#header{
+    position: fixed;
+    background-color: #ffffff;
+    height: 80px;
+    /* right: 0px; */
+    left: 0px;
+    float: right;
+    width: 100%;
+    top: 0px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid; 
+    z-index: 4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+align-items: flex-end;
+}
+
+.navitem {
+/* with help from John Dahle */
+    position: relative;
+    float: right;
+    background-color: #ffffff;        
+    border: 100px;
+    text-decoration: none;
+    width: 80px;
+    margin: 20px;
+    height: 20px;
+    z-index: 10;
+    border-right-color: #d6d2d2;
+    border-right-style: solid;
+    border-right-width: 1px; 
+    }
+
+a:hover {
+    color: #ec81ec;
+    transition: 0.3s;
+
+}
+
+#fixed {
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    top: 0;
+    left: -200;
+    padding: 30px;
+    margin:0;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 3;
+    height: 20px;
+    }
+
+    h1 {
+        padding-top: 20px;
+        margin-left: 40px;
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+
+hr {
+    margin: 20px;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+    body {background-color: #ffffff;
+    background-image: url("../images/greyfloral.png"); }
+
+    #content {
+        clear: both;
+        background: #ffffff;
+        border: #dddddd;
+        margin: 170px;
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+        align-content: center;
+        min-height: 350px;
+        line-height: 150%;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        overflow: auto;
+    }
+
+footer {
+/* with help from Dave */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #666666;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px; 
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 4;
+}
+
+/* .wrapper {
+    margin: 0 auto;
+    width: 1024px; */
+}
+#ppic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 2%;
+}
+
+
+
+/* <!-- Code influenced by W3 --> */
+.form {
+    width: 900px;
+    height: 30px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+#text {
+    margin-left: 20px;
+}
+
+#message {
+    margin-left: 20px;
+    width: 900px;
+}
+
+button {
+    background: #4aaaa5;
+    color: white;
+    margin: 10px 20px;
+}
+
+button:hover {
+    background-color: #ec81ec;
+    transition: 0.3s;
+}
+
+.port { clear: both;
+height: 250px;
+width: 250px; 
+align-items: center;
+position: relative;
+z-index: 0;
+margin: 15px;
+}
+
+.text {
+    height: 30px;
+    width: 250px;
+    background-color: #4aaaa5;
+    z-index: 2;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+#a {
+    margin: -52px;
+    left: 265px;
+}
+#b {
+    margin: -52px;
+    left: 549px;
+}
+#c {
+    margin: -52px;
+    left: 265px;
+}
+#d {
+    margin: -52px;
+    left: 549px;
+}
+#e {
+    margin: -52px;
+    left: 265px; 
+}
+
+@media screen and (max-width: 980px) {
+body {
+    clear: both;
+    width: 100%;
+}
+.top {
+    width: 100%;
+}
+.nav {
+    width: 60%;
+    margin-right: 400px;
+}
+#header {
+    width: 40%;
+    margin-right: 400px;
+}
+#fixed {
+    width: 40%;
+}
+#content { 
+    overflow: auto;
+    min-height: 100px;
+    overflow: auto;
+}
+}
+@media screen and (max-width: 768px) {
+body { 
+    clear:both;
+    width: 100%;
+}
+#content {
+    overflow: auto;
+    min-height: 100px;
+    overflow: auto;
+
+}
+.nav {
+    width: 60%;
+    margin-right: 100px;
+}
+#header {
+    width: 0%;
+}
+#fixed {
+    width: 40%;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+    .nav {
+        width: 100%;
+        margin-right: 400px;
+    }
+    #header {
+        width: 100%;
+    }
+    #fixed {
+        width: 80%;
+    }
+    body { 
+        clear:both;
+        width: 70%;
+        margin-right: 20px;
+        height: 100%;
+        overflow: auto;
+    }
+    #content { 
+        width: 80%;
+        margin-right: 100px;
+        min-height: 100px;
+        overflow: auto;
+
+    }
+}
