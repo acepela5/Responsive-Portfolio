@@ -85,8 +85,100 @@ form {
 }
 
 h3 {
+    clear:both;
     color: white;
     font-size: 20px;
     text-align: center;
     background-color: turquoise;
+    height: 40px;
+    width: 200px;
 }
+
+.leftpic {
+    margin: 50px;
+    position: relative
+}
+
+.rightpic {
+    margin: 100px;
+    left: 240px;
+    top: -362px;
+    position: relative;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        clear: both;
+        width: 100%;
+    }
+    .top {
+        width: 100%;
+    }
+    #nav {
+        width: 60%;
+        margin-right: 400px;
+    }
+    #header {
+        width: 40%;
+        margin-right: 400px;
+    }
+    #fixed {
+        width: 40%;
+    }
+    #content { 
+        overflow: auto;
+        min-height: 100px;
+        overflow: auto;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+    body { 
+        clear:both;
+        width: 100%;
+    }
+    #content {
+        overflow: auto;
+        min-height: 100px;
+        overflow: auto;
+    
+    }
+    #nav {
+        width: 60%;
+        margin-right: 100px;
+    }
+    #header {
+        width: 0%;
+    }
+    #fixed {
+        width: 40%;
+    }
+    }
+    
+    
+    @media screen and (max-width: 640px) {
+        #nav {
+            width: 100%;
+            margin-right: 400px;
+        }
+        #header {
+            width: 100%;
+        }
+        #fixed {
+            width: 80%;
+        }
+        body { 
+            clear:both;
+            width: 70%;
+            margin-right: 20px;
+            height: 100%;
+            overflow: auto;
+        }
+        #content { 
+            width: 80%;
+            margin-right: 100px;
+            min-height: 100px;
+            overflow: auto;
+    
+        }
+        }
