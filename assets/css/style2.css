@@ -114,18 +114,45 @@ h3 {
 
 @media screen and (max-width: 768px) {
     header {
+        clear: both;
         width: 100%;
     }
-    .content {
+    .container {
         height: 100%;
+        width: 600px;
+    }
+    #content {
+        overflow: auto;
+    }
+    form {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    header {
+    #name {
         width: 100%;
+        left: 0%;
     }
-    .content {
+    .container {
         height: 100%;
+        width: 700px;
+    }
+    #content {
+        overflow: auto;
+    }
+    image {
+        clear: both;
+        position: absolute;
+    }
+    form {
+        width: 100%;
+        margin: 10px;
+    }
+    a {
+        z-index: 3;
+        float: left;
     }
 }
