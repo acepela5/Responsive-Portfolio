@@ -190,7 +190,7 @@ margin: 15px;
     left: 265px; 
 } */
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 body {
     clear: both;
     width: 100%;
@@ -264,4 +264,4 @@ body {
         overflow: auto;
 
     }
-} */
+}
