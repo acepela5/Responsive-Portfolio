@@ -143,6 +143,7 @@ h3 {
     #content {
         overflow: auto;
     }
+    
     image {
         clear: both;
         position: absolute;
@@ -150,9 +151,10 @@ h3 {
     form {
         width: 100%;
         margin: 10px;
+        overflow: auto;
     }
     a {
-        z-index: 3;
+        z-index: 5;
         float: left;
     }
 }
