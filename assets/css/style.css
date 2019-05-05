@@ -15,7 +15,7 @@
 align-items: flex-end;
 }
 
-.navitem {
+#nav {
 /* with help from John Dahle */
     position: relative;
     float: right;
@@ -42,11 +42,11 @@ a:hover {
     text-align: center;
     font-size: 30px;
     top: 0;
-    left: -200;
+    left: 10%;
     padding: 30px;
     margin:0;
     background-color: #4aaaa5;
-    color: white;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 3;
     height: 20px;
@@ -66,8 +66,6 @@ hr {
 
 .container {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
 }
    
     body {background-color: #ffffff;
@@ -112,7 +110,7 @@ footer {
 /* .wrapper {
     margin: 0 auto;
     width: 1024px; */
-}
+/* } */
 #ppic {
     width: 200px;
     height: 200px;
@@ -122,7 +120,7 @@ footer {
 
 
 
-/* <!-- Code influenced by W3 --> */
+/* <!-- Code influenced by W3 -->
 .form {
     width: 900px;
     height: 30px;
@@ -190,9 +188,9 @@ margin: 15px;
 #e {
     margin: -52px;
     left: 265px; 
-}
+} */
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 body {
     clear: both;
     width: 100%;
@@ -200,7 +198,7 @@ body {
 .top {
     width: 100%;
 }
-.nav {
+#nav {
     width: 60%;
     margin-right: 400px;
 }
@@ -228,7 +226,7 @@ body {
     overflow: auto;
 
 }
-.nav {
+#nav {
     width: 60%;
     margin-right: 100px;
 }
@@ -242,7 +240,7 @@ body {
 
 
 @media screen and (max-width: 640px) {
-    .nav {
+    #nav {
         width: 100%;
         margin-right: 400px;
     }
@@ -266,4 +264,4 @@ body {
         overflow: auto;
 
     }
-}
+} */
