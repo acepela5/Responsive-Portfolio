@@ -106,13 +106,10 @@ h3 {
     top: -50px;
     left: 10px;
 }
-
-.row {
-    display: flex;
-  }
   
   .column {
-    flex: 50%;
+    float: left;
+    width: 50%;
   }
 
 /* code with help from Jimi LN */
@@ -147,11 +144,12 @@ h3 {
         width: 100%;
     }
     hr {
-        width: 600px;
+        width: 500px;
     }
     .container {
         min-height: 300px;
-        width: 700px;
+        width: 600px;
+        padding: 20px;
     }
     .content {
         overflow: auto;
@@ -168,25 +166,33 @@ h3 {
 
 @media screen and (max-width: 640px) {
     #name {
-        width: 100%;
+        width: 900px;
         left: 0%;
     }
     hr {
         width: 500px;
     }
-    .navcontainer {
-        width: 100%;
-        left: 0%;
-        top: 55px;
-        background-color: white;
-    }
+   
     a { 
-        left: 550px;
+        position: relative;
+        background-color: white;
+        left: 220px;
+        /* width: 1000px; */
+        z-index: 5;
+        top: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    #top {
+        width: 800px;
     }
     body {
-        min-height: 300px;
+        min-height: 200px;
     }
     .container {
+        top: 250px;
         left: 40px;
         width: 500px;
         min-height: 500px;
@@ -200,10 +206,7 @@ h3 {
         margin: 10px;
         overflow: auto;
     }
-    a {
-        z-index: 5;
-        float: left;
-    }
+   
     .column {
         width: 100%;
     }
@@ -212,5 +215,9 @@ h3 {
         position: relative;
         top: 7px;  
     }
+    /* footer {
+        top: 0px;
+        width: 100%;
+    } */
     
 }
