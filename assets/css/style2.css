@@ -4,7 +4,7 @@
     height: 60px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: turquoise;
+    border-bottom-color: #59aaa5;
     width: 100%;
 }
 
@@ -27,7 +27,7 @@ a {
 #name {
     position: relative;
     float: left;
-    background-color: turquoise;
+    background-color: #59aaa5;
     color: white;
     height: 80px;
     width: 190px;
@@ -42,7 +42,7 @@ a {
 
 h1 {
     font-size: 30px;
-    color: turquoise;
+    color: #59aaa5;
     margin: 10px;
     padding: 10px;
 }
@@ -75,7 +75,7 @@ img {
 footer {
     background-color: gray;
     color: white;
-    border-top: solid 5px turquoise;
+    border-top: solid 5px #59aaa5;
     position: relative;
     bottom: -900px;
     width: 100%;
@@ -99,7 +99,7 @@ h3 {
     color: white;
     font-size: 20px;
     text-align: center;
-    background-color: turquoise;
+    background-color: #59aaa5;
     height: 40px;
     width: 200px;
     position: relative;
